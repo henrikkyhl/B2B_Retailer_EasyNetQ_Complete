@@ -17,3 +17,4 @@ Task.Factory.StartNew(() => new Customer.Customer(3, 100, "DK").Start());
 
 // Block this thread so that the customer program will not exit.
 Console.ReadLine();
+
